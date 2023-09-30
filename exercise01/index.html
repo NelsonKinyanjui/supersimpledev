@@ -11,25 +11,32 @@
     <p>Price: $7.99</p>
     <p>
         <button class="add-to-cart" onclick="
-            
+        cartQuantity  ++;
+        console.log(cartQuantity);
             ">Add to cart </button>
      <button onclick="
-            
+                cartQuantity = cartQuantity +2;
+                console.log(cartQuantity);
      " >+2</button>
      <button onclick="
-            
+            cartQuantity = cartQuantity +3;
+            console.log(cartQuantity);
      " >+3</button>
      <button onclick="
-            
+          cartQuantity = 0;  
+          console.log(cartQuantity);
      " >Reset</button>
      <button  onclick="
-            
+          cartQuantity = cartQuantity -2; 
+          console.log(cartQuantity); 
      ">-2</button>
      <button onclick="
-            
+          cartQuantity = cartQuantity -3; 
+          console.log(cartQuantity); 
      " >-3</button>
      <button  onclick="
-            
+          cartQuantity = cartQuantity -5;  
+          console.log(cartQuantity);
      ">-5</button>
     </p>
     <script src="./assets/strings.js"> </script>
